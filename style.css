@@ -154,3 +154,38 @@ h4{
     border-radius: 5px;
 } 
 
+/* ---------------------------form section-------------------- */
+form{
+    height: 200px;
+    width: 700px;
+    background-color: #fff4d6;
+    margin-bottom: 200px;
+    margin-left: 310px;
+    position: relative;
+    
+}
+input{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    padding: 11px 20px;
+    font-size: 17px;
+    font-weight: 500;
+    border: 1px solid #fff4d6;
+    border-radius: 5px 0 0 5px;
+    
+}
+.inp-btn{
+    position: absolute;
+    top: 50%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    padding: 10px 40px;
+    background-color: #ff5959;
+    border: 1px solid #ff5959;
+    border-radius:  0 5px 5px 0 ;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
