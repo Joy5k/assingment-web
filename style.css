@@ -30,6 +30,7 @@
     
 }
 .donate-btn{
+   
     text-decoration: none;
     padding: 18px 30px;
     color: white;
@@ -39,12 +40,63 @@
     font-size: 20px;
 }
 /*----------------------------second-section-design---------------*/
+.second-section{
+    margin-bottom: 150px;
+ 
+}
 .second-title{
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 .second-title h1{
     font-size: 45px;
-    font-weight: 900;
+    font-weight: bolder;
     margin-bottom: 20px;
 }
+/*------------------Donation-Part-----------------*/
+.first-donate{
+    /*  */
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 50px;
+    background-color: #fcfafa;
+    position: relative;
+    margin-bottom: 70px;
+    
+
+}
+
+    h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+.donate-it{
+    border: 2px solid #ff5959;
+    background-color: #ffeeee;
+    
+}
+
+.card-item{
+    display: flex;
+   margin-left: 150px;
+}
+hr{
+    width: 60%;
+    margin-left: 250px;
+    color: #fcfafa;
+}
+h4{
+    text-align: center;
+    color: rgb(199, 194, 194);
+}
+
+.submit-btn{
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+/*----------------------------------extra-part-----------------*/
