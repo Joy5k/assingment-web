@@ -79,7 +79,7 @@
     
 }
 
-.card-item{
+.donate-item{
     display: flex;
    margin-left: 150px;
 }
@@ -97,6 +97,60 @@ h4{
     text-align: center;
     margin-top: 40px;
 }
+/* ------------------------------card-item------------------------ */
+.card-item{
+    margin-bottom: 200px;
+    display: flex;
+}
 
+.card{
+    height:300px;
+    width: 300px;
+    background-color: #edf5f6;
+    padding-left: 15px;
+    margin-left: 100px;
+    border-radius: 5px;
+    
+}
+.card img{
+    height: 50px;
+    width: 50px;
+    padding-top: 50px; 
+}
+.card h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.second{
+    background-color: #ffeeee;
+}
+.third{
+    background-color: 
+    #fff4d6;
+}
+/* ----------------------------extra-part----------------------------- */
+.extra-part{
+    margin-bottom: 100px;
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-around;
+}
+.id-card{
+    margin-left: 20px;
+    height: 350px;
+    width: 220px;
+    border-radius: 5px;
+    margin-left: 50px;
+    background-color: #9373c7;
+    text-align: center;
+    color: #fcfafa;
+    
+   
+}
+.id-card img {
+    margin-bottom: 10px;
+    height: auto;
+    width: 220px;
+    border-radius: 5px;
+} 
 
-/*----------------------------------extra-part-----------------*/
