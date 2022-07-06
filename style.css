@@ -84,7 +84,7 @@
     display: flex;
    margin-left: 150px;
 }
-hr{
+/* hr{
     width: 60%;
     margin-left: 250px;
     color: #fcfafa;
@@ -92,6 +92,20 @@ hr{
 h4{
     text-align: center;
     color: rgb(199, 194, 194);
+} */
+.submit-btn{
+    text-align: center;
+}
+#inp-field{
+    outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+    background: transparent;
+    padding: 20px 300px;
+    margin-left: 20%;
+    text-align: center; 
+    font-size: 500;
+
 }
 
 .submit-btn{
@@ -165,7 +179,7 @@ form{
     position: relative;
     
 }
-input{
+.footer-inp{
     position: absolute;
     top: 50%;
     left: 40%;
